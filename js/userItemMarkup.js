@@ -16,7 +16,7 @@ export const userItemMarkup = (name, email, phone) =>
         <div class="user-card__tel">
           <img
             class="user-card__tel-icon"
-            src="/img/tel.png"
+            src="./img/tel.png"
             alt="telephon icon"
           />
           <a class="user-card__link" href="tel:${phone}"
